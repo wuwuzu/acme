@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE module SYSTEM "module.dtd" >
+<module>
+  <name>acmeModule</name>
+  <displayName>${project.name}</displayName>
+  <description>${project.description}</description>
+  <class>com.acme.AcmeModule</class>
+  <versionHandler>com.acme.setup.AcmeModuleVersionHandler</versionHandler>
+  <version>${project.version}</version>
+
+  <dependencies>
+    <dependency>
+      <name>core</name>
+      <version>5.2.3/*</version>
+    </dependency>
+    <dependency>
+      <name>rendering</name>
+      <version>5.2.3/*</version>
+    </dependency>
+    <dependency>
+      <name>templating</name>
+      <version>5.2.3/*</version>
+    </dependency>
+    <dependency>
+      <name>templating-jsp</name>
+      <version>5.2.3/*</version>
+    </dependency>
+    <dependency>
+      <name>blossom</name>
+      <version>3.0.2/*</version>
+    </dependency>
+  </dependencies>
+</module>
